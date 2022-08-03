@@ -36,12 +36,25 @@
 <body>
     <!-- 상단바 -->
     <header>
-        <h1>카페핏유</h1>
+    
+    
+    <div id="header">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- LOGO -->
+				<div class="col-md-3">
+					<div class="header-logo">
+						<a onclick="location.href='P1main.jsp';" style="cursor: pointer" style="width: 40px" alt="" class="logo"> <img src="images/LogoL_nokki2 (1).png">
+						</a>
+					</div>
+				</div>
 
         <!-- 검색창 -->
         <form action="#">
             <div class="search-box">
-                <input class="search-txt" type="text" name="" placeholder="지역 / 공간 / 큐레이션 검색">
+                <input class="search-txt" type="text" name="" placeholder=" 지역 / 공간 / 큐레이션 검색">
                 <a class="search-btn" href="#">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
@@ -59,6 +72,7 @@
     <!-- 상단바 왼쪽 사이드바 여는 체크박스 -->
     <input type="checkbox" id="menuicon" style="z-index: 100;">
     <label for="menuicon" style="top: 40px;" style="z-index: 100;">
+    	<span id="searchtext">메뉴</span>
         <span style="z-index: 100;"></span>
         <span style="z-index: 100;"></span>
         <span style="z-index: 100;"></span>

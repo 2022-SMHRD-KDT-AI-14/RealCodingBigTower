@@ -80,9 +80,10 @@
 							<select class="input-select">
 								<option value="0">Cafe</option>
 								<option value="1">User</option>
-								<option value="2">업데이트 예정</option>
 							</select> <input class="input" placeholder="Search here">
+							<a onclick="location.href='ex07카카오맵사이드바.jsp';" style="cursor: pointer">
 							<button class="search-btn">Search</button>
+							</a>
 						</form>
 					</div>
 				</div>
@@ -103,10 +104,10 @@
 
 						<!-- Cart -->
 						<div class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown"
-								aria-expanded="true"> <a
-								onclick="location.href='P2bookmark.jsp';"
-								style="cursor: pointer"> <i class="fa-regular fa-bookmark"></i>
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"> 
+								<a onclick="location.href='P2bookmark.jsp';"
+								style="cursor: pointer"> 
+								<i class="fa-regular fa-bookmark"></i>
 									<!-- <i class="fa-solid fa-bookmark"></i>  : 색깔 칠해진 북마크 아이콘 -->
 									<span>Bookmark</span>
 									<div class="qty">+</div>
@@ -115,11 +116,6 @@
 					</div>
 					<!-- /Cart -->
 
-					<!-- Menu Toogle -->
-					<div class="menu-toggle">
-						<a href="#"> <i class="fa fa-bars"></i> <span>Menu</span>
-						</a>
-					</div>
 					<!-- /Menu Toogle -->
 				</div>
 			</div>

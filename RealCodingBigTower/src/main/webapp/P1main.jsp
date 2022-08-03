@@ -62,14 +62,14 @@ Member loginMember = (Member)session.getAttribute("loginMember");%>
 				</ul> -->
 				
 				<ul class="header-links pull-right">
-					<li &nbsp;><a onclick="location.href='P3userinfo.jsp';" style="cursor:pointer"> My Account <i class="fa fa-user-o" ></i></a></li &nbsp; >
+					<li &nbsp;><a onclick="location.href='P3userinfo.jsp';" style="cursor:pointer"> 내 정보 <i class="fa fa-user-o" ></i></a></li &nbsp; >
 				</ul>
 				
 				<ul class="header-links pull-right">
 					<li &nbsp;><a onclick="location.href='login.jsp';" style="cursor:pointer"><i class=""  &nbsp;></i> logout </a></li &nbsp;>
 				
 				<ul class="header-links pull-right">
-					<li &nbsp;><a onclick="location.href='P3postupload.jsp';" style="cursor:pointer"><i class=""></i> Post+ </a></li &nbsp;>
+					<li &nbsp;><a onclick="location.href='P3postupload.jsp';" style="cursor:pointer"><i class=""></i> Post+  </a></li &nbsp;>
 				</ul>
 				
 				</ul>
@@ -88,7 +88,8 @@ Member loginMember = (Member)session.getAttribute("loginMember");%>
 					<div class="col-md-3">
 						<div class="header-logo">
 							<a href="#" class="logo">
-								<img src="images/LogoL_nokki2 (1).png" alt="">
+								<img src="images/LogoL_nokki2 (1).png" 
+								onclick="location.href='P1main.jsp';" alt="">
 							</a>
 						</div>
 					</div>
@@ -104,7 +105,9 @@ Member loginMember = (Member)session.getAttribute("loginMember");%>
 									<option value="2">업데이트 예정</option>
 								</select>
 								<input class="input" placeholder="Search here">
+								<a onclick="location.href='ex07카카오맵사이드바.jsp';" style="cursor: pointer">
 								<button class="search-btn">Search</button>
+								</a>
 							</form>
 						</div>
 					</div>
@@ -115,10 +118,10 @@ Member loginMember = (Member)session.getAttribute("loginMember");%>
 						<div class="header-ctn">
 							<!-- Wishlist -->
 							<div>
-								<a href="#">
+								<a a onclick="location.href='P2bias.jsp';" style="cursor: pointer">
 									<i class="fa-regular fa-heart"></i>
 									<!-- <i class="fa-solid fa-heart"></i> : 색깔 칠해진 하트 아이콘 -->
-									<span>My Bias</span>
+									<span>Like</span>
 									<div class="qty">+</div>
 								</a>
 							</div>
@@ -127,51 +130,18 @@ Member loginMember = (Member)session.getAttribute("loginMember");%>
 							<!-- Cart -->
 							<div class="dropdown">
 								<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+									<a onclick="location.href='P2bookmark.jsp';"
+								style="cursor: pointer">
 									<i class="fa-regular fa-bookmark"></i>
 									<!-- <i class="fa-solid fa-bookmark"></i>  : 색깔 칠해진 북마크 아이콘 -->
 									<span>Bookmark</span>
 									<div class="qty">+</div>
-								</a>
-								<div class="bookmark-dropdown">
-									<div class="cart-list">
-										<div class="product-widget">
-											<div class="product-img">
-												<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220414_247%2F16499247554904FiaY_JPEG%2FIMG_6060.jpg"
-													alt="">
-											</div>
-											<div class="product-body">
-												<h5 class="cafe-name"><a href="#">피자 맛집</a></h5>
-												<h4 class="hashtag">#해시태그</h4>
-											</div>
-											<button class="delete"><i class="fa fa-close"></i></button>
-										</div>
-
-										<div class="product-widget">
-											<div class="product-img">
-												<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220414_247%2F16499247554904FiaY_JPEG%2FIMG_6060.jpg"
-													alt="">
-											</div>
-											<div class="product-body">
-												<h5 class="cafe-name"><a href="#">피자 맛집</a></h5>
-												<h4 class="hashtag">#해시태그</h4>
-											</div>
-											<button class="delete"><i class="fa fa-close"></i></button>
-										</div>
-									</div>
-									<div class="cart-btns">
-										<a href="#">View Cart</a>
-										<a href="#">Checkout <i class="fa fa-arrow-circle-right"></i></a>
-									</div>
+									</a>
 								</div>
 							</div>
 							<!-- /Cart -->
 
 							<!-- Menu Toogle -->
-							<div class="menu-toggle">
-								<a href="#">
-									<i class="fa fa-bars"></i>
-									<span>Menu</span>
-								</a>
 							</div>
 							<!-- /Menu Toogle -->
 						</div>
@@ -853,8 +823,6 @@ Member loginMember = (Member)session.getAttribute("loginMember");%>
 					<div class="col-md-3 col-xs-6">
 						<div class="footer">
 							<h3 class="footer-title">About Us</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-								incididunt ut.</p>
 							<ul class="footer-links">
 								<li><a href="#"><i class="fa fa-phone"></i> 062-655-1616</a></li>
 								<li><a href="#"><i class="fa fa-envelope-o"></i> cfy0502@email.com</a></li>
