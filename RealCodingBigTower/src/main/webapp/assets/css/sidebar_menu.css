@@ -1,0 +1,63 @@
+input[id="menuicon"]{
+    display:none;
+    z-index: 2;
+    position:absolute;
+}
+
+input[id="menuicon"]+label span{
+    display:inline-block;
+    position:absolute;
+    width:80%;
+    height: 8px;
+    border-radius:30px;
+    background:#000;
+    transition:all .35s;
+    padding: 10px;
+    
+}
+input[id="menuicon"]+label span:nth-child(1){
+    top:0;
+    padding: 10px;
+    display: inline-block;
+    position:absolute;
+}
+input[id="menuicon"]+label span:nth-child(2){
+    top:50%;
+    transform:translateY(-50%);
+    display: inline-block;
+    padding: 10px;
+    position:absolute;
+}
+input[id="menuicon"]+label span:nth-child(3){
+    bottom:0;
+    display: inline-block;
+    padding: 10px;
+    position:absolute;
+}
+input[id="menuicon"]:checked+label span:nth-child(1){
+    top:50%;
+    transform:translateY(-50%) rotate(45deg);
+    background-color: white;
+    position:absolute;
+}
+input[id="menuicon"]:checked+label span:nth-child(2){
+    opacity:0;
+    position:absolute;
+}
+input[id="menuicon"]:checked+label span:nth-child(3){
+    bottom:50%;
+    transform:translateY(50%) rotate(-45deg);
+    background-color: white;
+    position:absolute;
+}
+input[id="menuicon"]+label{
+    display:block;
+    width:80px;
+    height:30px;
+    position:absolute;
+    cursor:pointer;
+    
+}
+
+
+input[id="menuicon"]:checked + label + div {left:0;}

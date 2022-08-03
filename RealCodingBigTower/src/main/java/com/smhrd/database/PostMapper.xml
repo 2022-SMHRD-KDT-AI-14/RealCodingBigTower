@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smhrd.model.PostDAO">
+	<insert id="insertPost" parameterType="com.smhrd.model.PostDAO">
+		insert into C_POST values (post_seq.nextval, #{title}, #{content}, SYSDATE, #{userID}, #{cafe_num},#{keyword}, 0, #{filename1},#{filename2}, #{filename3}, #{filename5},)
+	</insert>
+	<select id="selectAllLikePost" parameterType="Integer" >
+		select post_seq from c_like where u_email = #{u_email} 
+	</select>	
+	
+	<select id="selectAllPostlist" resultType="com.smhrd.model.Post">
+		select * from C_POST
+	</select>
+	
+	<select id="selectOne" parameterType="int" resultType="com.smhrd.model.Post">
+		select * from C_POST where POST_SEQ=#{num}
+	</select>
+	
+</mapper>        

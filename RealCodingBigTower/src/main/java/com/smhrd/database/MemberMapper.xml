@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smhrd.model.MemberDAO">
+	<insert id="insert" parameterType="com.smhrd.model.Member">
+		insert into c_user (u_email, u_pw, u_nick, u_gender, u_job, u_joindate) values (#{email}, #{pw}, #{nick}, #{gender}, #{job}, sysdate)
+	</insert>
+	<update id="updateMember" parameterType="com.smhrd.model.Member">
+		update c_user set u_pw=#{pw}, u_nick=#{nick}, u_job=#{job} where u_email=#{email}
+	</update>
+	
+	 <select id="selectOne" parameterType="com.smhrd.model.Member" resultType="com.smhrd.model.Member">
+		select * from c_user where u_email=#{email} and u_pw=#{pw}
+		<!--  select u_email, u_pw, u_nick, u_job, u_gender, title_seq, u_joindate from c_user where u_email=#{email} and u_pw=#{pw}-->
+	</select>
+	<!--<update id="updateMember" parameterType="com.smhrd.model.Member">
+		update web_member set pw=#{pw}, tel=#{tel}, address=#{address} where email=#{email}
+	</update>
+	<select id="selectAllMember" resultType="com.smhrd.model.Member">
+		select * from web_member where not(email='admin')
+	</select>
+	<delete id="deleteMember" parameterType="String">
+		delete from web_member where email=#{email} 
+	</delete> -->
+	
+	<select id="emailCheck" parameterType="String" resultType="boolean">
+		select case when count(*)>0 then 1
+					else 0
+				end result
+		from c_user where u_email=#{email}
+					
+	</select>
+</mapper>        

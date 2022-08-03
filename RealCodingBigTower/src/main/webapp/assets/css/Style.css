@@ -1,0 +1,188 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+} */
+
+.main {
+    
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-regi {
+    width: 380px;
+    height: 680px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    overflow: hidden;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 20px;
+}
+.button-wrap {
+    width: 230px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 600px 9px #ffffff;
+    border-radius: 30px;
+}
+.togglebtn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+.Logo {
+    margin: -60px;
+    text-align: center;
+}
+.Logo img {
+    width: 250px;
+    cursor: default;
+}
+.input-group-nanum {
+   	font-size:20px;
+    font-family: nanum;
+}
+.input-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-group2 {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    left: 850px;
+}
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.footer {
+    color: rgb(142, 171, 170);
+    font-size: 13px;
+    margin: -20px;
+}
+.submit {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(219, 219, 219);
+    outline: none;
+    border-radius: 5px;
+}
+
+.submit2 {
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(219, 219, 219);
+    outline: none;
+    border-radius: 5px;
+    margin-left: 180px;
+}
+
+.checkbox {
+    margin: 30px 10px 30px 0;
+}
+span {
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+.message {
+    text-align: center;
+    
+}
+.keyword {
+    text-align: center;
+    
+}
+.rgmessage {
+    text-align: center;
+    cursor: pointer;
+}
+#login {
+    left: 50px;
+}
+#register {
+    left: 450px;
+}
+#register2 {
+	left: 850px;
+}
+
+a:link {
+    color : rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  a:visited {
+    color : black;
+    text-decoration: none;
+  }
+  a:hover {
+    color : black;
+    text-decoration: none;
+  }
+  a:active {
+    color : black;
+    text-decoration: none;
+  }
+.info {
+    position: absolute;
+    top:0px;
+    left:500px;
+    display:  inlune-block;
+    margin: 6% auto;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    resize: none;
+    overflow-y:scroll;
+    outline: none;
+    font-family: nanum;
+    cursor: default;
+    /* direction:rtl; */   
+    
+}
+.info::-webkit-scrollbar {
+width: 10px;
+cursor: pointer;
+}
+.info::-webkit-scrollbar-thumb {
+background-color: gray;
+border-radius: 10px;
+background-clip: padding-box;
+border: 2px solid transparent;
+cursor: pointer;
+}
+.info::-webkit-scrollbar-track {
+background-color: whitesmoke;
+border-radius: 10px;
+box-shadow: inset 0px 0px 5px white;
+cursor: pointer;
+}

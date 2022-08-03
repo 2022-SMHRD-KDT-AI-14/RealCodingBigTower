@@ -1,0 +1,3 @@
+.sidebar {width:430px; height: 100%; background:wheat; position:fixed; top:0; left:-430px; transition:all .35s;
+    position:absolute; overflow: auto;
+}

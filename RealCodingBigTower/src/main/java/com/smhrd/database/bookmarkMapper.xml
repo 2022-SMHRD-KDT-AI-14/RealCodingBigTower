@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smhrd.model.bookmarkDAO">
+
+	
+	<select id="selectALL" parameterType="com.smhrd.model.bookmark" resultType="com.smhrd.model.bookmark">
+		select * from c_bookmark where email=#{email} and pw=#{pw}
+	</select>
+	<insert id="insertBookMark" parameterType="com.smhrd.model.bookmark">
+		INSERT INTO C_BOOKMARK
+		VALUES(#{u_email}, #{post_seq})
+	</insert>
+</mapper>
