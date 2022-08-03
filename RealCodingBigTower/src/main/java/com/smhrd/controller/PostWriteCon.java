@@ -26,7 +26,7 @@ public class PostWriteCon extends HttpServlet {
 			
 		//세션 - id
 		HttpSession session = request.getSession();
-		Member vo = (Member)session.getAttribute("loginVO");
+		Member vo = (Member)session.getAttribute("loginMember");
 		String nick = vo.getU_nick();
 			
 			//파일이 저장될 서버의 경로

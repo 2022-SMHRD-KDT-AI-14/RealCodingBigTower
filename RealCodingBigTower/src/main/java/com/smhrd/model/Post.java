@@ -20,6 +20,8 @@ public class Post {
 	private String POST_CONTENT;
 	private Timestamp POST_DATE;
 	private String U_EMAIL;
+	@NonNull
+	private String nick;
 	private BigDecimal CAFE_SEQ ;
 	@NonNull
 	private String HASHTAG;
