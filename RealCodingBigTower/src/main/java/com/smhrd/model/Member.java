@@ -1,5 +1,8 @@
 package com.smhrd.model;
 
+import java.math.BigDecimal;
+import java.sql.Date;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,38 +16,15 @@ import lombok.RequiredArgsConstructor;
 
 public class Member {
 	@NonNull
-	private String email;
+	private String u_email;
 	@NonNull
-	private String pw;
-	private String nick;
-	private String job;
-	private String keyword;
-	private String gender;	
-	private String titleSeq;
-	private String joindate;
-	private String intr;
+	private String u_pw;
+	private String u_nick;
+	private String u_job;
+	private String u_keyword;
+	private Character u_gender;	
+	private BigDecimal titleSeq;
+	private Date u_joindate;
+	private String u_int;
 	
-	
-	public Member(String email, String pw, String gender, String nick, String job) {
-		super();
-		this.email = email;
-		this.pw = pw;
-		this.gender = gender;
-		this.nick = nick;
-		this.job = job;
-	}
-
-
-	public Member( String email,  String pw, String nick, String job, String gender, String titleSeq,
-			String joindate) {
-		super();
-		this.email = email;
-		this.pw = pw;
-		this.nick = nick;
-		this.job = job;
-		this.gender = gender;
-		this.titleSeq = titleSeq;
-		this.joindate = joindate;
-	}	
-
 }

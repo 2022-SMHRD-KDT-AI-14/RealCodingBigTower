@@ -396,9 +396,9 @@ String nick = (String) request.getAttribute("nick");
 
 			<!-- 로그인 폼-->
 			<form id="login" action="LoginCon" class="input-group">
-				<input type="text" class="input-field" placeholder="아이디를 입력해주세요." name="email"
+				<input type="text" class="input-field" placeholder="아이디를 입력해주세요." name="u_email"
 					required> <input type="password" class="input-field"
-					placeholder="패스워드를 입력해주세요." name="pw" required><br> <br> <br>
+					placeholder="패스워드를 입력해주세요." name="u_pw" required><br> <br> <br>
 				<!-- <button class="submit">Login</button> -->
 				<button class="submit" type="submit">Login</button>
 				<br> <br>
