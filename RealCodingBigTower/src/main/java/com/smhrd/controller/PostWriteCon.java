@@ -27,7 +27,7 @@ public class PostWriteCon extends HttpServlet {
 		//세션 - id
 		HttpSession session = request.getSession();
 		Member vo = (Member)session.getAttribute("loginVO");
-		String nick = vo.getNick();
+		String nick = vo.getU_nick();
 			
 			//파일이 저장될 서버의 경로
 			String saveDir = request.getServletContext().getRealPath("img");			//파일의 최대크기 20MB
@@ -40,14 +40,14 @@ public class PostWriteCon extends HttpServlet {
 			MultipartRequest multi =  new MultipartRequest(request, saveDir, maxSize, encoding, new DefaultFileRenamePolicy());
 			
 			
-			String title = multi.getParameter("title");
-			String content =multi.getParameter("content");
-			String keyword = multi.getParameter("keyword");
-			String filename1 = URLEncoder.encode(multi.getFilesystemName("file1"),"UTF-8");
-			String filename2 = URLEncoder.encode(multi.getFilesystemName("file2"),"UTF-8");
-			String filename3 = URLEncoder.encode(multi.getFilesystemName("file3"),"UTF-8");
-			String filename4 = URLEncoder.encode(multi.getFilesystemName("file4"),"UTF-8");
-			String filename5 = URLEncoder.encode(multi.getFilesystemName("file5"),"UTF-8");			
+			String title = multi.getParameter("POST_TITLE");
+			String content =multi.getParameter("POST_CONTENT");
+			String keyword = multi.getParameter("HASHTAG");
+			String filename1 = URLEncoder.encode(multi.getFilesystemName("POST_FILENAME1"),"UTF-8");
+			String filename2 = URLEncoder.encode(multi.getFilesystemName("POST_FILENAME2"),"UTF-8");
+			String filename3 = URLEncoder.encode(multi.getFilesystemName("POST_FILENAME3"),"UTF-8");
+			String filename4 = URLEncoder.encode(multi.getFilesystemName("POST_FILENAME4"),"UTF-8");
+			String filename5 = URLEncoder.encode(multi.getFilesystemName("POST_FILENAME5"),"UTF-8");			
 			
 				
 			Post postVO = new Post(title,nick,content,keyword,filename1,filename2,filename3,filename4,filename5);

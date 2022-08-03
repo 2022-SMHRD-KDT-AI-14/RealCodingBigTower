@@ -13,27 +13,26 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @Getter
 public class Post {
-	private BigDecimal num ;
+	private BigDecimal POST_SEQ ;
 	@NonNull
-	private String title ;
+	private String POST_TITLE ;
 	@NonNull
-	private String content;
+	private String POST_CONTENT;
+	private Timestamp POST_DATE;
+	private String U_EMAIL;
+	private BigDecimal CAFE_SEQ ;
 	@NonNull
-	private String keyword;
+	private String HASHTAG;
 	
-	private Timestamp uploadday;
+
 	@NonNull
-	private String nick;
-	private BigDecimal cafe_num;
-	private BigDecimal like;
+	private String POST_FILENAME1 ;
 	@NonNull
-	private String filename1 ;
+	private String POST_FILENAME2 ;
 	@NonNull
-	private String filename2 ;
+	private String POST_FILENAME3 ;
 	@NonNull
-	private String filename3 ;
+	private String POST_FILENAME4 ;
 	@NonNull
-	private String filename4 ;
-	@NonNull
-	private String filename5 ;
+	private String POST_FILENAME5 ;
 }

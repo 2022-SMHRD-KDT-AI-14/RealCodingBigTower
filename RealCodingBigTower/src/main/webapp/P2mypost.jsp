@@ -47,7 +47,7 @@
 		PostDAO dao = new PostDAO();
 		List<Post> list = dao.selectAllPostlist();
 		String nick = (String)request.getAttribute("nick");
-		String utitle = (String)request.getAttribute("title");
+		String utitle = (String)request.getAttribute("POST_TITLE");
 	%>
 		<!-- HEADER -->
 		<header>
@@ -319,11 +319,11 @@
 							<div class="col-md-4 col-xs-6">
 								<div class="product">
 									<div class="product-img">
-										<img src="<%=b.getFilename1() %>"
+										<img src="<%=b.getPOST_FILENAME1() %>"
 												alt="">
 									</div>
 									<div class="product-body">
-										<h3 class="cafe-name"><a href="#"><%=b.getTitle()%></a></h3>
+										<h3 class="cafe-name"><a href="#"><%=b.getPOST_TITLE()%></a></h3>
 											<h4 class="username"><%= nick %> <p class="user-title"><%= utitle %></p>
 											</h4>
 										<div class="cafe-rating">
