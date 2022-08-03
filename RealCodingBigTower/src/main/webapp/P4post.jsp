@@ -48,15 +48,15 @@
 		<![endif]-->
 
     </head>
-    <jsp:useBean id="PostDAO" class="com.smhrd.model.PostDAO"/>
-    <c:set var="Post" value="${PostDAO.selectOne(param.num)}"/>
+    <jsp:useBean id="postDAO" class="com.smhrd.model.PostDAO"/>
+    <c:set var="post" value="${PostDAO.selectPostOne(param.num)}"/>
     <!-- url에 심어진 param을 가져온다 -->
 	<body>
 		<%
 		PostDAO dao = new PostDAO();
 		List<Post> list = dao.selectAllPostlist();
 		String nick = (String)request.getAttribute("nick");
-		String utitle = (String)request.getAttribute("title");
+		String utitle = (String)request.getAttribute("POST_TITLE"); 
 	%>
 		<!-- HEADER -->
 		<header>
@@ -192,7 +192,7 @@
 							<li><a href="#">Home</a></li>
 							<li><a href="#">All Cafe</a></li>
 							<li><a href="#">데이트</a></li>
-						<li class="active">${Post.title}</li> 
+						<li class="active">${post.POST_TITLE}</li> 
 						</ul>
 					</div>
 				</div>
@@ -215,7 +215,7 @@
 								<div class="product-label">
 									<span class="new">외부 사진</span>
 								</div>
-								<img src="img/${Post.filename1}" alt="">
+								<img src="img/${post.POST_FILENAME1}" alt="">
 
 							</div>
 
@@ -223,7 +223,7 @@
 								<div class="product-label">
 									<span class="new">내부 사진</span>
 								</div>
-								<img src="img/${Post.filename2}" alt="">
+								<img src="img/${post.POST_FILENAME2}" alt="">
 
 							</div>
 
@@ -231,17 +231,17 @@
 								<div class="product-label">
 									<span class="new">메인메뉴</span>
 								</div>
-								<img src="img/${Post.filename3}" alt="">
+								<img src="img/${post.POST_FILENAME3}" alt="">
 
 							</div>
 
 								<div class="product-preview">
-									<img src="img/${Post.filename4}" alt="">
+									<img src="img/${post.POST_FILENAME4}" alt="">
 
 							</div>
 							
 								<div class="product-preview">
-									<img src="img/${Post.filename5}" alt="">
+									<img src="img/${post.POST_FILENAME5}" alt="">
 
 							</div>
 
@@ -253,29 +253,29 @@
 					<div class="col-md-2  col-md-pull-5">
 						<div id="product-imgs">
 							<div class="product-preview">
-								<img src="img/${Post.filename1}" alt="">
+								<img src="img/${post.POST_FILENAME1}" alt="">
 								
 							</div>
 
 							<div class="product-preview">
-								<img src="img/${Post.filename2}" alt="">
+								<img src="img/${post.POST_FILENAME2}" alt="">
 								
 							
 							</div>
 
 							<div class="product-preview">
-								<img src="img/${Post.filename3}" alt="">
+								<img src="img/${post.POST_FILENAME3}" alt="">
 								
 
 							</div>
 
 							<div class="product-preview">
-								<img src="img/${Post.filename4}" alt="">
+								<img src="img/${post.POST_FILENAME4}" alt="">
 
 							</div>
 
 							<div class="product-preview">
-								<img src="img/${Post.filename5}" alt="">
+								<img src="img/${post.POST_FILENAME5}" alt="">
 
 							</div>
 						</div>
@@ -285,7 +285,7 @@
 					<!-- Product details -->
 					<div class="col-md-5">
 						<div class="product-details">
-							<h2 class="cafe-name">${Post.title}</h2>
+							<h2 class="cafe-name">${post.POST_TITLE}</h2>
 							<div>
 								<div class="cafe-rating">
 									네이버 평점 : 4.5<i class="fa fa-star"></i>
@@ -298,7 +298,7 @@
 
 							<div>
 								<p class="post-content-text">
-								${Post.title}
+								${post.POST_TITLE}
 								</p>
 							</div>	
 
@@ -310,7 +310,6 @@
 							<ul class="product-links">
 								<li>hashtags:</li>
 								<li><a href="#">#깔끔함</a></li>
-								<li><a href="#">#맛있는디저트</a></li>
 							</ul>
 
 							<ul class="product-links">
