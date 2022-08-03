@@ -64,9 +64,6 @@
 			<div id="top-header">
 				<div class="container">
 					<ul class="header-links pull-left">
-						<li><a href="#"><i class="fa fa-phone"></i> 062-655-1616</a></li>
-						<li><a href="#"><i class="fa fa-envelope-o"></i> cfy0502@email.com</a></li>
-						<li><a href="#"><i class="fa fa-map-marker"></i> 동구 예술길 31-15</a></li>
 					</ul>
 					<ul class="header-links pull-right">						
 						<li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
@@ -85,7 +82,8 @@
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
-									<img src="images/LogoL_nokki2 (1).png" alt="">
+									<img src="images/LogoL_nokki2 (1).png" 
+									a onclick="location.href='P1main.jsp';" style="cursor: pointer" alt="">
 								</a>
 							</div>
 						</div>
@@ -101,6 +99,7 @@
 										<option value="2">업데이트 예정</option>
 									</select>
 									<input class="input" placeholder="Search here">
+									<a onclick="location.href='ex07카카오맵사이드바.jsp';" style="cursor: pointer">
 									<button class="search-btn">Search</button>
 								</form>
 							</div>
@@ -115,7 +114,7 @@
 									<a href="#">
 										<i class="fa-regular fa-heart"></i>
 										<!-- <i class="fa-solid fa-heart"></i> : 색깔 칠해진 하트 아이콘 -->
-										<span>My Bias</span>
+										<span>Like</span>
 										<div class="qty">+</div>
 									</a>
 								</div>
@@ -124,49 +123,18 @@
 								<!-- Cart -->
 								<div class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-										<i class="fa-regular fa-bookmark"></i>
+										<a
+								onclick="location.href='P2bookmark.jsp';"
+								style="cursor: pointer"><i class="fa-regular fa-bookmark"></i>
 										<!-- <i class="fa-solid fa-bookmark"></i>  : 색깔 칠해진 북마크 아이콘 -->
 										<span>Bookmark</span>
 										<div class="qty">+</div>
 									</a>
-									<div class="bookmark-dropdown">
-										<div class="cart-list">
-											<div class="product-widget">
-												<div class="product-img">
-													<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220414_247%2F16499247554904FiaY_JPEG%2FIMG_6060.jpg" alt="">
-												</div>
-												<div class="product-body">
-													<h5 class="cafe-name"><a href="#">피자 맛집</a></h5>
-													<h4 class="hashtag">#해시태그</h4>
-												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
-											</div>
-
-											<div class="product-widget">
-												<div class="product-img">
-													<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220414_247%2F16499247554904FiaY_JPEG%2FIMG_6060.jpg" alt="">
-												</div>
-												<div class="product-body">
-													<h5 class="cafe-name"><a href="#">피자 맛집</a></h5>
-													<h4 class="hashtag">#해시태그</h4>
-												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
-											</div>
-										</div>									
-										<div class="cart-btns">
-											<a href="#">View Cart</a>
-											<a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
-										</div>
 									</div>
 								</div>
 								<!-- /Cart -->
 
 								<!-- Menu Toogle -->
-								<div class="menu-toggle">
-									<a href="#">
-										<i class="fa fa-bars"></i>
-										<span>Menu</span>
-									</a>
 								</div>
 								<!-- /Menu Toogle -->
 							</div>
@@ -189,7 +157,8 @@
 				<div class="row">
 					<div class="col-md-12">
 						<ul class="breadcrumb-tree">
-							<li><a href="#">Home</a></li>
+							<li><a onclick="location.href='P1main.jsp';"
+							style="cursor: pointer">Home</a></li>
 							<li><a href="#">All Cafe</a></li>
 							<li><a href="#">데이트</a></li>
 						<li class="active">${post.POST_TITLE}</li> 
@@ -722,7 +691,6 @@
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
 								<h3 class="footer-title">About Us</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
 								<ul class="footer-links">
 									<li><a href="#"><i class="fa fa-phone"></i> 062-655-1616</a></li>
 						<li><a href="#"><i class="fa fa-envelope-o"></i> cfy0502@email.com</a></li>
