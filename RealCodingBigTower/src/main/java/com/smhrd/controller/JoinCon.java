@@ -21,14 +21,14 @@ public class JoinCon extends HttpServlet {
 
 		request.setCharacterEncoding("UTF-8");
 
-		String email = request.getParameter("email");
-		String pw = request.getParameter("pw");
-		String gender = request.getParameter("gender");
-		String nick = request.getParameter("nick");
-		String job = request.getParameter("job");
+		String u_email = request.getParameter("u_email");
+		String u_pw = request.getParameter("u_pw");
+		Character u_gender = request.getParameter("u_gender").charAt(0);
+		String u_nick = request.getParameter("u_nick");
+		String u_job = request.getParameter("u_job");
 
 		
-		Member member = new Member(email, pw, gender, nick, job);
+		Member member = new Member(u_email, u_pw, u_gender, u_nick, u_job);
 
 		MemberDAO dao = new MemberDAO();
 		int cnt = dao.insertMember(member);

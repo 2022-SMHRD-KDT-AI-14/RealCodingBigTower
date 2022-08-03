@@ -27,4 +27,14 @@ public class Member {
 	private Date u_joindate;
 	private String u_int;
 	
+	public Member(String u_email, String u_pw, Character u_gender, String u_nick, String u_job) {
+		super();
+		this.u_email = u_email;
+		this.u_pw = u_pw;
+		this.u_gender = u_gender;
+		this.u_nick = u_nick;
+		this.u_job = u_job;
+		
+	}
+	
 }

@@ -32,34 +32,34 @@ public class PostDAO {
 		return cnt;
 
 	}
-	public List<Integer> selectAllLikePost(BigDecimal like){
-		
-		List<Integer> list = null;
-		try {
-			list = sqlSession.selectList("com.smhrd.model.PostDAO.selectAllLikePost", like);
-			
-		}catch(Exception e) {
-			e.printStackTrace();
-		}finally {
-			sqlSession.close();
-		}
-		return list;				
-	}
-
 	
-public List<Post> selectAllPostlist(){
+	
+public List<Post> selectAllLikePostlist(){
 		
-		List<Post> list = null;
+		List<Post> postlist = null;
 		try {
-			list = sqlSession.selectList("com.smhrd.model.PostDAO.selectAllPostlist");
+			postlist = sqlSession.selectList("com.smhrd.model.PostDAO.selectAllLikePostlist");
 			
 		}catch(Exception e) {
 			e.printStackTrace();
 		}finally {
 			sqlSession.close();
 		}
-		return list;				
+		return postlist;				
 	}
+public List<Post> selectAllLikePostlist2(){
+	
+	List<Post> postlist = null;
+	try {
+		postlist = sqlSession.selectList("com.smhrd.model.PostDAO.selectAllLikePostlist2");
+		
+	}catch(Exception e) {
+		e.printStackTrace();
+	}finally {
+		sqlSession.close();
+	}
+	return postlist;				
+}
 
 public Post selectPostOne(int num) {
 	

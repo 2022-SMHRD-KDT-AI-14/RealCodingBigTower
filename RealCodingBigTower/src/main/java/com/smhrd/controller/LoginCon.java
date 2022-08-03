@@ -1,6 +1,7 @@
 package com.smhrd.controller;
 
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -9,9 +10,6 @@ import javax.servlet.http.HttpSession;
 
 import com.smhrd.model.Member;
 import com.smhrd.model.MemberDAO;
-
-
-
 
 public class LoginCon extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -24,13 +22,9 @@ public class LoginCon extends HttpServlet {
 		String u_email = request.getParameter("u_email");
 		String u_pw = request.getParameter("u_pw");
 		
-		System.out.println(u_email);
-		System.out.println(u_pw);
-
 		Member member = new Member(u_email, u_pw);
 
 		MemberDAO dao = new MemberDAO();
-
 		Member loginMember = dao.selectMember(member);
 		
 

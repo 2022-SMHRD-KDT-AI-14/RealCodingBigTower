@@ -1,3 +1,4 @@
+<%@page import="com.smhrd.model.Post"%>
 <%@page import="java.util.List"%>
 <%@page import="com.smhrd.model.PostDAO"%>
 <%@page import="com.smhrd.model.Member"%>
@@ -43,7 +44,17 @@
 
 </head>
 <% HttpSession session1 = request.getSession();
-Member loginMember = (Member)session.getAttribute("loginMember");%>
+Member loginMember = (Member)session.getAttribute("loginMember");
+
+String u_nick = loginMember.getU_nick();
+String u_email = loginMember.getU_email();
+
+List<Post> postlist = null;
+PostDAO postdao = new PostDAO();
+/* postlist = postdao.selectAllLikePostlist(); */
+postlist = postdao.selectAllLikePostlist2();
+
+%>
 
 <body>
 
@@ -249,11 +260,11 @@ Member loginMember = (Member)session.getAttribute("loginMember");%>
 
 										</div>
 										<div class="product-body">
-											<h3 class="cafe-name"><a href="#">Gethering</a></h3>
-											<h4 class="username">USERNAME <p class="user-title">유저타이틀</p>
+											<h3 class="cafe-name"><a href="#"><%= postlist.get(0).getPOST_TITLE() %></a></h3>
+											<h4 class="username"><%-- <%= postlist.get(0).getCAFE_NAME() %> --%> <p class="user-title"><%-- <%=postlist.get(0).getU_nick() %> --%></p>
 											</h4>
 											<div class="cafe-rating">
-												<a>4.5</a><i class="fa fa-star"></i>
+												<a><%-- <%=postlist.get(0).getCAFE_SCORE() %> --%></a><i class="fa fa-star"></i>
 											</div>
 											<div class="product-btns">
 												<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span

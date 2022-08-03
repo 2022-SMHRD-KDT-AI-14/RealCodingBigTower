@@ -7,6 +7,8 @@ import org.apache.ibatis.session.SqlSessionFactory;
 
 import com.smhrd.database.SqlSessionManager;
 
+
+
 public class MemberDAO {
 
 	SqlSessionFactory sqlSessionFactory = SqlSessionManager.getSqlSession();
@@ -33,7 +35,7 @@ public class MemberDAO {
 
 	public Member selectMember(Member member) {
 		
-		Member loginMember = null;
+		Member loginMember = null;		
 		
 		try {
 			// 실행
@@ -45,6 +47,7 @@ public class MemberDAO {
 		} finally {
 			sqlSession.close();
 		}
+		
 		return loginMember;
 	}
 

@@ -6,14 +6,14 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<insert id="insertPost" parameterType="com.smhrd.model.Post">
 		insert into C_POST values (POST_SEQ.nextval, #{POST_TITLE}, #{POST_CONTENT}, SYSDATE, #{U_EMAIL}, #{CAFE_SEQ},#{HASHTAG}, 0, #{POST_FILENAME1},#{POST_FILENAME2}, #{POST_FILENAME3}, #{POST_FILENAME4},#{POST_FILENAME5})
 	</insert>
-	<select id="selectAllLikePost" parameterType="Integer" >
-		select post_seq from c_like where u_email = #{u_email} 
-	</select>	
-	
-	<select id="selectAllPostlist" resultType="com.smhrd.model.Post">
-		select * from C_POST
+
+	<select id="selectAllLikePostlist" resultType="com.smhrd.model.Post">
+		SELECT A.CAFE_SEQ, B.CAFE_NAME, B.CAFE_SCORE, A.POST_SEQ, A.POST_TITLE, A.POST_CONTENT, A.POST_DATE, A.U_EMAIL, C.U_NICK, A.HASHTAG, A.POST_LIKES, A.POST_FILENAME1 FROM C_POST A , C_CAFE B, C_USER C WHERE A.CAFE_SEQ = B.CAFE_SEQ AND A.U_EMAIL = C.U_EMAIL AND CAFE_SCORE IS NOT NULL AND ROWNUM BETWEEN 1 AND 6 ORDER BY A.POST_LIKES DESC
 	</select>
-	
+	<select id="selectAllLikePostlist2" resultType="com.smhrd.model.Post">
+		SELECT A.CAFE_SEQ, B.CAFE_NAME, A.POST_SEQ, A.POST_TITLE, A.POST_CONTENT, A.POST_DATE, A.U_EMAIL, C.U_NICK, A.HASHTAG, A.POST_LIKES, A.POST_FILENAME1 FROM C_POST A , C_CAFE B, C_USER C WHERE A.CAFE_SEQ = B.CAFE_SEQ AND A.U_EMAIL = C.U_EMAIL AND CAFE_SCORE IS NOT NULL AND ROWNUM BETWEEN 1 AND 6 ORDER BY A.POST_LIKES DESC
+	</select>
+	<!--    -->
 	<select id="selectPostOne" parameterType="int" resultType="com.smhrd.model.Post">
 		select * from C_POST where POST_SEQ=#{num}
 	</select>
