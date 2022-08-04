@@ -155,7 +155,7 @@
 							style="cursor: pointer">Home</a></li>
 							<li><a href="#">All Cafe</a></li>
 							<li><a href="#">데이트</a></li>
-						<li class="active">${post.POST_TITLE}</li> 
+						<li class="active"></li> 
 						</ul>
 					</div>
 				</div>
@@ -178,7 +178,7 @@
 								<div class="product-label">
 									<span class="new">외부 사진</span>
 								</div>
-								<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20201220_249%2F1608451305801PaSL1_JPEG%2FBQ1ryYCW9jysiHJY-PqGwa_m.jpeg.jpg" alt="">
+								<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODEwMTVfMTY4%2FMDAxNTM5NTgxOTQ0NjIw.V2GP9b1x3c72FsKDV4K4Pgc0ozIpTaxVR0TLuJET7Dwg.LVechq-JPp_qsJ7Cmfw1k6bOBpehWinl5DZu4Gdrad4g.JPEG.147048%2FP1230174.JPG" alt="">
 
 							</div>
 
@@ -186,7 +186,7 @@
 								<div class="product-label">
 									<span class="new">내부 사진</span>
 								</div>
-								<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20210912_26%2F1631442724056Oi4sJ_JPEG%2Fupload_ee91ab7bd322da9d79dbdbe6311bddc8.jpeg" alt="">
+								<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220414_202%2F1649924754676LPwTl_JPEG%2FDSC00940.jpg" alt="">
 
 							</div>
 
@@ -194,17 +194,17 @@
 								<div class="product-label">
 									<span class="new">메인메뉴</span>
 								</div>
-								<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20210109_140%2F1610166762860fPTta_JPEG%2Fupload_8bf8d4d75f87569842637e19fcceae05.jpeg" alt="">
+								<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220414_97%2F16499247552105YRTo_JPEG%2FIMG_6100.jpg" alt="">
 
 							</div>
 
 								<div class="product-preview">
-									<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20210331_72%2F1617197006254g4dlJ_JPEG%2Fupload_dd075209c14c2c9d0203fb3bdae9180b.jpeg" alt="">
+									<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220414_46%2F1649924755150kP7Vz_JPEG%2FIMG_6083.jpg" alt="">
 
 							</div>
 							
 								<div class="product-preview">
-									<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220306_16%2F1646569476761mdkWo_JPEG%2Fupload_2773c5f79572c8c8f6b92bd9a74573c8.jpeg" alt="">
+									<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220414_247%2F16499247554904FiaY_JPEG%2FIMG_6060.jpg" alt="">
 
 							</div>
 
@@ -216,29 +216,29 @@
 					<div class="col-md-2  col-md-pull-5">
 						<div id="product-imgs">
 							<div class="product-preview">
-								<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20201220_249%2F1608451305801PaSL1_JPEG%2FBQ1ryYCW9jysiHJY-PqGwa_m.jpeg.jpg" alt="">
+								<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODEwMTVfMTY4%2FMDAxNTM5NTgxOTQ0NjIw.V2GP9b1x3c72FsKDV4K4Pgc0ozIpTaxVR0TLuJET7Dwg.LVechq-JPp_qsJ7Cmfw1k6bOBpehWinl5DZu4Gdrad4g.JPEG.147048%2FP1230174.JPG" alt="">
 								
 							</div>
 
 							<div class="product-preview">
-								<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20210912_26%2F1631442724056Oi4sJ_JPEG%2Fupload_ee91ab7bd322da9d79dbdbe6311bddc8.jpeg" alt="">
+								<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220414_202%2F1649924754676LPwTl_JPEG%2FDSC00940.jpg" alt="">
 								
 							
 							</div>
 
 							<div class="product-preview">
-								<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20210109_140%2F1610166762860fPTta_JPEG%2Fupload_8bf8d4d75f87569842637e19fcceae05.jpeg" alt="">
+								<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220414_97%2F16499247552105YRTo_JPEG%2FIMG_6100.jpg" alt="">
 								
 
 							</div>
 
 							<div class="product-preview">
-								<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20210331_72%2F1617197006254g4dlJ_JPEG%2Fupload_dd075209c14c2c9d0203fb3bdae9180b.jpeg" alt="">
+								<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220414_46%2F1649924755150kP7Vz_JPEG%2FIMG_6083.jpg" alt="">
 
 							</div>
 
 							<div class="product-preview">
-								<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220306_16%2F1646569476761mdkWo_JPEG%2Fupload_2773c5f79572c8c8f6b92bd9a74573c8.jpeg" alt="">
+								<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220414_247%2F16499247554904FiaY_JPEG%2FIMG_6060.jpg" alt="">
 
 							</div>
 						</div>
@@ -248,22 +248,21 @@
 					<!-- Product details -->
 					<div class="col-md-5">
 						<div class="product-details">
-							<h2 class="cafe-name">얼스커피(Earth Coffee)</h2>
+							<h2 class="cafe-name">게더링(Gethering)</h2>
 							<div>
 								<div class="cafe-rating">
-									네이버 평점 : 4.67<i class="fa fa-star"></i>
-									 / 카카오 평점 : 3.4<i class="fa fa-star"></i>
+									네이버 평점 : 4.38<i class="fa fa-star"></i>
+									 / 카카오 평점 : 2.1<i class="fa fa-star"></i>
 								</div>
 							</div>
 							<div>
-								<h3 class="username">알마<p class="user-title">전국카페탐방</p></h3>
+								<h3 class="username">분대장<p class="user-title">집돌이</p></h3>
 							</div>
 
 							<div>
 								<p class="post-content-text">
-								커피도 생각보다 맛있었고
-								크로플이 정말 맛있었어요!
-								그리고 냅킨대신 매장내 비치된 손수건을 하용하고 있어요!
+								예전에 갔을때 맛이 변한듯 했지만
+								최근에 가보니 너무 좋았습니다.
 								</p>
 							</div>	
 
@@ -274,7 +273,7 @@
 
 							<ul class="product-links">
 								<li>hashtags:</li>
-								<li><a href="#">#맛있는커피</a></li>
+								<li><a href="#">#분위기,#인테리어,#커피맛집</a></li>
 							</ul>
 
 							<ul class="product-links">
@@ -313,16 +312,26 @@
 													<tr>
 														<td class="tg-01">매장 소개</td>
 														<td class="tg-02"><p style="white-space:normal;">
-															커피 맛과 크로플을 자랑하는 동명동 대표 맛집!</p></td>
+															40년 이상된 주택을 개조하였고,<br>
+															아늑하고 세련된 인테리어와 정원의 조합이<br>
+															만들어내는 공간이 참 예쁩니다.<br>
+															<br>
+															브런치,파스타,피자를<br>
+															다양한 방식으로 해석해서<br>
+															특별한 메뉴가 많습니다.<br>
+															<br>
+															그래서 4년 동안<br>
+															꾸준히 사랑 받고 있는<br>
+															동명동 핫플 게더링입니다!</p></td></td>
 													 </tr>					
 															
 														<tr>
 														   <td class="tg-01">매장 오픈 시간</td>
-														   <td class="tg-02">11:00 ~ 20:00</td>
+														   <td class="tg-02">월 : 정기 휴무 11:00~15:00,17:00~21:00</td>
 														</tr>														
 														<tr>
 														   <td class="tg-01">사이트 URL(지도)</td>
-														   <td class="tg-02"><a href="https://map.naver.com/v5/search/%EC%96%BC%EC%8A%A4%EC%BB%A4%ED%94%BC?c=14129299.8731960,4184603.4602171,13,0,0,0,dh">얼스커피(Earth)</a></td>
+														   <td class="tg-02"><a href="https://map.naver.com/v5/search/%EA%B2%8C%EB%8D%94%EB%A7%81?c=14128553.5984617,4184109.1107089,15,0,0,0,dh">게더링</a></td>
 														</tr>
 														<tr>
 														   <td class="tg-01">애견동반</td>
@@ -334,7 +343,7 @@
 														</tr>
 														<tr>
 														   <td class="tg-01">주소</td>
-														   <td class="tg-02">광주 동구 동계로10번길 16</td>
+														   <td class="tg-02">광주 동구 동명동 71-1</td>
 														</tr>
 												</table>												
 											</div>									
@@ -354,23 +363,23 @@
 														<th class="th-01-01">Price</th>
 													</tr>
 													<tr>
-														<td class="tg-03">얼스커피</td>
-														<td class="tg-04">6,000</td>
+														<td class="tg-03">씨푸드 칠리</td>
+														<td class="tg-04">17,000</td>
 													 </tr>			
-													<tr>
-														<td class="tg-03">아메리카노</td>
-														<td class="tg-04">4,000</td>
-													 </tr>								
 													 <tr>
-														<td class="tg-03">디카페인 아메리카노</td>
-														<td class="tg-04">5,00</td>
-													 </tr>		
-													 <tr>
-														<td class="tg-03">헤이즐넛</td>
-														<td class="tg-04">4,500</td>
+														<td class="tg-03">스테이크 묵은지 오일</td>
+														<td class="tg-04">19,000</td>
 													 </tr>	
 													 <tr>
-														<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210104_267%2F16097464265978k8Vy_JPEG%2FD2dzo-5SFAO2CvuGD5NiXStw.jpg" alt="">
+														<td class="tg-03">감바스 알 아히요</td>
+														<td class="tg-04">21,000</td>
+													 </tr>	
+													 <tr>
+														<td class="tg-03">크로아상 에그 베네딕트</td>
+														<td class="tg-04">12,000</td>
+													 </tr>		
+													 <tr>
+														<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210408_56%2F1617847919781bueb1_JPEG%2FbXzK3rbYVMvIlxc10T-aaQ1M.jpg" alt="">
 													 </tr>																												
 												</table>												
 										</div>
@@ -385,7 +394,7 @@
 										<div class="col-md-3">
 											<div id="rating">
 												<div class="rating-avg">
-													<span>4.0</span>
+													<span>3.0</span>
 													<div class="rating-stars">
 														<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
@@ -404,9 +413,9 @@
 															<i class="fa fa-star"></i>
 														</div>
 														<div class="rating-progress">
-															<div style="width: 30%;"></div>
+															<div></div>
 														</div>
-														<span class="sum">1</span>
+														<span class="sum">0</span>
 													</li>
 													<li>
 														<div class="rating-stars">
@@ -417,9 +426,9 @@
 															<i class="fa fa-star-o"></i>
 														</div>
 														<div class="rating-progress">
-															<div style="width: 30%;"></div>
+															<div></div>
 														</div>
-														<span class="sum">1</span>
+														<span class="sum">0</span>
 													</li>
 													<li>
 														<div class="rating-stars">
@@ -430,9 +439,9 @@
 															<i class="fa fa-star-o"></i>
 														</div>
 														<div class="rating-progress">
-															<div style="width: 30%;"></div>
+															<div style="width: 100%;"></div>
 														</div>
-														<span class="sum">1</span>
+														<span class="sum">3</span>
 													</li>
 													<li>
 														<div class="rating-stars">
@@ -471,39 +480,39 @@
 												<ul class="reviews">
 													<li>
 														<div class="review-heading">
-															<h5 class="name">지구사랑</h5>
+															<h5 class="name">알마</h5>
 															<p class="date">2022-08-01</p>
 															<div class="cafe-rating">
-																<a>5</a><i class="fa fa-star"></i>
+																<a>3</a><i class="fa fa-star"></i>
 															</div>
 														</div>
 														<div class="review-body">
-															<p>별로...내마음 속에 별로...</p>
+															<p>분대장님 여기는 카페가 아닙니다만?</p>
 														</div>
 													</li>
 													<li>
 														<div class="review-heading">
-															<h5 class="name">크로플좋아</h5>
+															<h5 class="name">만득이</h5>
 															<p class="date">2022-08-03</p>
 															<div class="cafe-rating">
-																<a>4</a><i class="fa fa-star"></i>
+																<a>3</a><i class="fa fa-star"></i>
 															</div>
 															
 														</div>
 														<div class="review-body">
-															<p>커피는 생각보다 별로였지만 크로플은 진짜 맛있었어요</p>
+															<p>카페리뷰를 하라고!</p>
 														</div>
 													</li>
 													<li>
 														<div class="review-heading">
-															<h5 class="name">3따리</h5>
+															<h5 class="name">프론트담당</h5>
 															<p class="date">2022-08-04</p>
 															<div class="cafe-rating">
 																<a>3</a><i class="fa fa-star"></i>
 															</div>
 														</div>
 														<div class="review-body">
-															<p>제 취향은 좀 아니였어요</p>
+															<p>카페리뷰가 아니니 3점드릴게요</p>
 														</div>
 													</li>
 												</ul>

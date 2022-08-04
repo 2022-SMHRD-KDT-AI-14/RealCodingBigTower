@@ -155,7 +155,7 @@
 							style="cursor: pointer">Home</a></li>
 							<li><a href="#">All Cafe</a></li>
 							<li><a href="#">데이트</a></li>
-						<li class="active">${post.POST_TITLE}</li> 
+						<li class="active"></li> 
 						</ul>
 					</div>
 				</div>
@@ -274,7 +274,7 @@
 
 							<ul class="product-links">
 								<li>hashtags:</li>
-								<li><a href="#">#맛있는커피</a></li>
+								<li><a href="#">#커피맛집, #디저트, #분위기</a></li>
 							</ul>
 
 							<ul class="product-links">
@@ -363,7 +363,7 @@
 													 </tr>								
 													 <tr>
 														<td class="tg-03">디카페인 아메리카노</td>
-														<td class="tg-04">5,00</td>
+														<td class="tg-04">5,000</td>
 													 </tr>		
 													 <tr>
 														<td class="tg-03">헤이즐넛</td>
