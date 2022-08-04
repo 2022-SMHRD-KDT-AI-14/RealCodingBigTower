@@ -66,11 +66,20 @@
 			<!-- TOP HEADER -->
 			<div id="top-header">
 				<div class="container">
-					<ul class="header-links pull-left">
-					</ul>
-					<ul class="header-links pull-right">						
-						<li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
-					</ul>
+				
+				<ul class="header-links pull-right">
+					<li><a onclick="location.href='login.jsp';" style="cursor:pointer" ><i class=""></i> logout </a &nbsp;></li &nbsp;>
+				</ul>
+				
+				<ul class="header-links pull-right">
+					<li><a onclick="location.href='P3postupload.jsp';" style="cursor:pointer"><i class=""></i> Post+ </a &nbsp;></li &nbsp;>
+				</ul>
+				
+				<ul class="header-links pull-right">
+					<li><a onclick="location.href='P3userinfo.jsp';" style="cursor:pointer"><i class="fa fa-user-o" ></i> 내 정보 </a></li>
+				</ul>
+					
+					
 				</div>
 			</div>
 			<!-- /TOP HEADER -->
@@ -114,7 +123,7 @@
 							<div class="header-ctn">
 								<!-- Wishlist -->
 								<div>
-									<a href="#">
+									<a onclick="location.href='P2bias.jsp';" style="cursor: pointer">
 										<i class="fa-regular fa-heart"></i>
 										<!-- <i class="fa-solid fa-heart"></i> : 색깔 칠해진 하트 아이콘 -->
 										<span>Like</span>

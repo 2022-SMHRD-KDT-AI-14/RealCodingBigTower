@@ -62,7 +62,7 @@
 		</div>
 	</div>
 	<!-- /TOP HEADER --> <!-- MAIN HEADER -->
-	<div id="header">
+	<div id="header" style="padding-bottom: 17px">
 		<!-- container -->
 		<div class="container">
 			<!-- row -->
@@ -85,10 +85,11 @@
 							<select class="input-select">
 								<option value="0">Cafe</option>
 								<option value="1">User</option>
-							</select> <input class="input" placeholder="Search here">
+								<option value="2">업데이트 예정</option>
+							</select> 
+							<input class="input" placeholder="Search here">
 							<a onclick="location.href='ex07카카오맵사이드바.jsp';" style="cursor: pointer">
 							<button class="search-btn">Search</button>
-							</a>
 						</form>
 					</div>
 				</div>
