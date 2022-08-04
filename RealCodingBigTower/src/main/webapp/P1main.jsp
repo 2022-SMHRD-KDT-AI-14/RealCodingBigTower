@@ -456,9 +456,7 @@ postlist = postdao.selectAllLikePostlist2(); */
 												<div class="product-label">
 												<span class="new">Best</span>
 											</div>
-											<div class="product-label">
-												<span class="new">NEW</span>
-											</div>
+										
 										</div>
 										<div class="product-body">
 

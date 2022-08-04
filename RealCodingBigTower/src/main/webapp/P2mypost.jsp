@@ -43,12 +43,7 @@
     </head>
 	<body>
 	
-	<%
-		PostDAO dao = new PostDAO();
-		List<Post> list = dao.selectAllPostlist();
-		String nick = (String)request.getAttribute("nick");
-		String utitle = (String)request.getAttribute("POST_TITLE");
-	%>
+	
 		<!-- HEADER -->
 		<header>
 			<!-- TOP HEADER -->
@@ -184,7 +179,7 @@
 		</nav>
 		<!-- /NAVIGATION -->
 
-		<!-- SECTION -->
+				<!-- SECTION -->
 		<div class="section">
 			<!-- container -->
 			<div class="container">
@@ -202,7 +197,7 @@
 										</div>
 
 										<div class="product-body" >
-											<h4 class="username" ><%= nick %><a class="user-title"><%= utitle %></a></h4>
+											<h4 class="username" >만득이<a class="user-title">브론즈</a></h4>
 											<div></div>
 											<h3 class="cafe-name">브론즈에서 벗어날꺼야</h3>
 											<div></div>
@@ -223,56 +218,9 @@
 
 						<!-- aside Widget -->
 						<div class="aside">
-							<h3 class="aside-title">Brand</h3>
+							<h3 class="aside-title"></h3>
 							<div class="checkbox-filter">
-								<div class="input-checkbox">
-									<input type="checkbox" id="brand-1">
-									<label for="brand-1">
-										<span></span>
-										데이트
-										<small>(578)</small>
-									</label>
-								</div>
-								<div class="input-checkbox">
-									<input type="checkbox" id="brand-2">
-									<label for="brand-2">
-										<span></span>
-										조용한
-										<small>(125)</small>
-									</label>
-								</div>
-								<div class="input-checkbox">
-									<input type="checkbox" id="brand-3">
-									<label for="brand-3">
-										<span></span>
-										애견동반
-										<small>(755)</small>
-									</label>
-								</div>
-								<div class="input-checkbox">
-									<input type="checkbox" id="brand-4">
-									<label for="brand-4">
-										<span></span>
-										노키즈
-										<small>(578)</small>
-									</label>
-								</div>
-								<div class="input-checkbox">
-									<input type="checkbox" id="brand-5">
-									<label for="brand-5">
-										<span></span>
-										커피맛집
-										<small>(125)</small>
-									</label>
-								</div>
-								<div class="input-checkbox">
-									<input type="checkbox" id="brand-6">
-									<label for="brand-6">
-										<span></span>
-										감성
-										<small>(755)</small>
-									</label>
-								</div>
+								
 							</div>
 						</div>
 						<!-- /aside Widget -->
@@ -285,17 +233,112 @@
 						
 						<!-- store products -->
 						<div class="row">
-	<%for(Post b:list) {%>					
+							
+
+							<!-- product -->
+							<div class="col-md-4 col-xs-6">
+								<div class="product">
+								
+									<div class="product-img">
+											<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODEwMTVfMTY4%2FMDAxNTM5NTgxOTQ0NjIw.V2GP9b1x3c72FsKDV4K4Pgc0ozIpTaxVR0TLuJET7Dwg.LVechq-JPp_qsJ7Cmfw1k6bOBpehWinl5DZu4Gdrad4g.JPEG.147048%2FP1230174.JPG"
+												alt="">
+
+										</div>
+
+									
+									<div class="product-body">
+										<h3 class="cafe-name"><a href="#">Gathering </a></h3>
+											<h4 class="username">만득이 <p class="user-title">브론즈</p>
+											</h4>
+											<div class="cafe-rating">
+												<a>4.27</a><i class="fa fa-star"></i>
+
+										</div>
+										<div class="product-btns">
+									<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
+									<button class="add-to-compare"><i class="fa-regular fa-bookmark"></i><span class="tooltipp">add to compare</span></button>
+								</div>
+									</div>
+									<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i> 자세히 보기</button>
+							</div>
+								</div>
+							</div>
+							<!-- /product -->
+
+							<!-- product -->
+							<div class="col-md-4 col-xs-6">
+								<div class="product">
+										<div class="product-img">
+											<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA3MzFfMTA1%2FMDAxNjU5Mjc5NDMxMDAx.OhMoYmK41DTqsFlF-JQZi3D4E-VoCsNTpGVWjibx5M4g.9zJepqrgcpv5PudgifteS453NcggCZUfz8ZOqmie3Xog.JPEG.monde337%2FIMG_7234.jpg"
+												alt="">
+
+										</div>
+										<div class="product-body">
+
+											<h3 class="cafe-name"><a href="#">로멘틱 뮤지업</a></h3>
+											<h4 class="username">만득이 <p class="user-title">브론즈</p>
+											</h4>
+											<div class="cafe-rating">
+												<a>4.6</a><i class="fa fa-star"></i>
+											</div>
+
+										<div class="product-btns">
+									<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
+									<button class="add-to-compare"><i class="fa-regular fa-bookmark"></i><span class="tooltipp">add to compare</span></button>
+								</div>
+									</div>
+									<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i> 자세히 보기</button>
+							</div>
+								</div>
+							</div>
+							<!-- /product -->
+
+							
+
 							<!-- product -->
 							<div class="col-md-4 col-xs-6">
 								<div class="product">
 									<div class="product-img">
-										<img src="<%=b.getPOST_FILENAME1() %>"
+											<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAxMzFfMjE0%2FMDAxNTgwNDgwMzA2MTI2.Rur2kvEdDsFIKbB4DYEkgSOknEX9r4ZUSx6U35CwQGEg.px_dXxm-ItkOZHMOBwpL41I-J70vP0fqgU77EBN_Pf4g.JPEG.anne_ee%2FIMG_2501.jpg"
 												alt="">
+
+										</div>
+										<div class="product-body">
+
+											<h3 class="cafe-name"><a href="#">더블플롯</a></h3>
+											<h4 class="username">만득이 <p class="user-title">브론즈</p>
+											</h4>
+											<div class="cafe-rating">
+												<a>4.45</a><i class="fa fa-star"></i>
+
+										</div>
+										<div class="product-btns">
+									<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
+									<button class="add-to-compare"><i class="fa-regular fa-bookmark"></i><span class="tooltipp">add to compare</span></button>
+								</div>
+									</div>
+									<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i> 자세히 보기</button>
+							</div>
+								</div>
+							</div>
+							<!-- /product -->
+
+							
+
+							<!-- product -->
+							<div class="col-md-4 col-xs-6">
+								<div class="product">
+									<div class="product-img">
+										<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA2MTFfMzkg%2FMDAxNjU0OTQyMDI5NTYy.f2kXi5WttLlmGj19zDlj5h0hAt7-BYIsrd6H4b8SdDUg.LHgUxxUYBKvgyYdORZquAifmViip7vV6iV8POGYg55kg.JPEG.dhdmswjd01%2FIMG_2582.jpg"
+												alt="">
+
 									</div>
 									<div class="product-body">
-										<h3 class="cafe-name"><a href="#"><%=b.getPOST_TITLE()%></a></h3>
-											<h4 class="username"><%= nick %> <p class="user-title"><%= utitle %></p>
+										<h3 class="cafe-name"><a href="#">ASUMEHL</a></h3>
+											<h4 class="username">만득이 <p class="user-title">브론즈</p>
 											</h4>
 										<div class="cafe-rating">
 											<a>4.5</a><i class="fa fa-star"></i>
@@ -306,28 +349,26 @@
 								</div>
 									</div>
 									<div class="add-to-cart">
-												<button class="add-to-cart-btn" onclick="window.open('P4post.jsp?num=<%=b.getNum() %>')"><i class="fa-solid fa-magnifying-glass"></i> 자세히 보기</button>
+												<button class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i> 자세히 보기</button>
 							</div>
 								</div>
 							</div>
 							<!-- /product -->
 
 							
-	<%} %>							
 						</div>
 						<!-- /store products -->
 
 						<!-- store bottom filter -->
-						<div class="store-filter clearfix">
-							<ul class="store-pagination">
-								<li class="active">1</li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
-							</ul>
-						</div>
-						<!-- /store bottom filter -->
+					<div class="store-filter clearfix"
+						style="justify-content: center; display: flex;">
+						<ul class="store-pagination">
+							<li class="active">1</li>
+
+
+						</ul>
+					</div>
+					<!-- /store bottom filter -->
 					</div>
 					<!-- /STORE -->
 				</div>
@@ -336,6 +377,7 @@
 			<!-- /container -->
 		</div>
 		<!-- /SECTION -->		
+
 
 		<!-- FOOTER -->
 		<footer id="footer">
