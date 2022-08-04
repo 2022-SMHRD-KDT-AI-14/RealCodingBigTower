@@ -1,7 +1,7 @@
 
 
     var positions = [  // 마커의 위치
-    new kakao.maps.LatLng(33.44975, 126.56967),
+    new kakao.maps.LatLng(35.148950341445, 126.92739289947),
     new kakao.maps.LatLng(33.450579, 126.56956),
     new kakao.maps.LatLng(33.4506468, 126.5707)
 ],
@@ -9,14 +9,15 @@
 selectedMarker = null; // 클릭한 마커를 담을 변수
 
 var names=[
-    '라면',
+    '게더링',
     '돈까스',
     '짜장면'
 ]
 
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div
     mapOption = { 
-        center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+		center: new kakao.maps.LatLng(35.150071596861, 126.92536870909), // 지도의 중심좌표
+       /*center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표*/
         level: 3 // 지도의 확대 레벨
     };
 
@@ -62,6 +63,7 @@ function addMarker(position, name,i){
     // 마커 2가지 생성
 // 기본 마커 이미지 생성(normalImage)
 var N_imageSrc='https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_red.png',
+	/*N_imageSrc='https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_white.png',*/
     N_imageSize = new kakao.maps.Size(64,69),
     N_imageOption = {offset: new kakao.maps.Point(27,69)}
 
@@ -69,7 +71,7 @@ var N_imageSrc='https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_
 var N_markerImage = new kakao.maps.MarkerImage(N_imageSrc, N_imageSize, N_imageOption)
     
 // 클릭 마커 이미지 생성(clickImage)
-var C_imageSrc='images/horse_man.png',
+var C_imageSrc='images/LogoS2.png',
     C_imageSize=new kakao.maps.Size(64,69)
     C_imageOption = {offset: new kakao.maps.Point(27,69)}
 
@@ -88,7 +90,7 @@ var marker = new kakao.maps.Marker({
 marker.N_markerImage = N_markerImage;
 
 // 클릭시 동작 생성
-kakao.maps.event.addListener(marker, 'click', function() {
+kakao.maps.event.addListener(marker, 'clic	k', function() {
 
     $('*').removeClass('clicked')
 

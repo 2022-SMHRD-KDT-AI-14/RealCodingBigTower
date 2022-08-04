@@ -72,18 +72,19 @@ postlist = postdao.selectAllLikePostlist2(); */
 					<li><a href="#"><i class="fa fa-map-marker"></i> 동구 예술길 31-15</a></li>
 				</ul> -->
 				
+				
 				<ul class="header-links pull-right">
-					<li &nbsp;><a onclick="location.href='P3userinfo.jsp';" style="cursor:pointer"> 내 정보 <i class="fa fa-user-o" ></i></a></li &nbsp; >
+					<li><a onclick="location.href='login.jsp';" style="cursor:pointer" ><i class=""></i> logout </a &nbsp;></li &nbsp;>
 				</ul>
 				
 				<ul class="header-links pull-right">
-					<li &nbsp;><a onclick="location.href='login.jsp';" style="cursor:pointer"><i class=""  &nbsp;></i> logout </a></li &nbsp;>
+					<li><a onclick="location.href='P3postupload.jsp';" style="cursor:pointer"><i class=""></i> Post+ </a &nbsp;></li &nbsp;>
+				</ul>
 				
 				<ul class="header-links pull-right">
-					<li &nbsp;><a onclick="location.href='P3postupload.jsp';" style="cursor:pointer"><i class=""></i> Post+  </a></li &nbsp;>
+					<li><a onclick="location.href='P3userinfo.jsp';" style="cursor:pointer"><i class="fa fa-user-o" ></i> 내 정보 </a></li>
 				</ul>
 				
-				</ul>
 				
 			</div>
 		</div>
@@ -889,14 +890,6 @@ postlist = postdao.selectAllLikePostlist2(); */
 				<!-- row -->
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<span class="copyright">
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-							Copyright &copy;
-							<script>document.write(new Date().getFullYear());</script> All rights reserved | This
-							template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
-								href="https://colorlib.com" target="_blank">Colorlib</a>
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						</span>
 					</div>
 				</div>
 				<!-- /row -->
