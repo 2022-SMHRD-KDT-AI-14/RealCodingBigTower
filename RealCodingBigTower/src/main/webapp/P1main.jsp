@@ -253,12 +253,55 @@ postlist = postdao.selectAllLikePostlist2(); */
 							<!-- tab -->
 							<div id="tab1" class="tab-pane active">
 								<div class="products-slick" data-nav="#slick-nav-1">
+								
+								
 									<!-- product -->
+								<div class="product">
+										<div class="product-img">
+											<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEwMzBfMjAz%2FMDAxNjM1NTgwMDgxNjI4.zZiZn-IUE7xwqBjPS6N6hbNM40sRAlnglrKipztS9usg.7xvI6qtTBzj9MRp802YAfqGe1L6WGO4ZJur6DVArxxkg.JPEG.rkdldhtm%2FIMG_5034.jpg"
+												alt="">
+												<div class="product-label">
+												<span class="new">Best</span>
+											</div>
+										
+										</div>
+								
+					
+									
+										
+										<div class="product-body">
+
+											<h3 class="cafe-name"><a href="#">티앗(TeaAt)</a></h3>
+											<h4 class="username">분대장 <p class="user-title">집돌이</p>
+											</h4>
+											<div class="cafe-rating">
+												<a>4.1</a><i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+														class="tooltipp">add to wishlist</span></button>
+												<button class="add-to-compare"><i
+														class="fa-regular fa-bookmark"></i><span class="tooltipp">add to
+														compare</span></button>
+
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i>
+												자세히 보기</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+							<!-- product -->
 									<div class="product">
 										<div class="product-img">
 											<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODEwMTVfMTY4%2FMDAxNTM5NTgxOTQ0NjIw.V2GP9b1x3c72FsKDV4K4Pgc0ozIpTaxVR0TLuJET7Dwg.LVechq-JPp_qsJ7Cmfw1k6bOBpehWinl5DZu4Gdrad4g.JPEG.147048%2FP1230174.JPG"
 												alt="">
-
+													<div class="product-label">
+												<span class="new">Best</span>
+											</div>
+										
 										</div>
 										<div class="product-body">
 											<h3 class="cafe-name"><a href="#">Gathering </a></h3>
@@ -284,38 +327,9 @@ postlist = postdao.selectAllLikePostlist2(); */
 									</div>
 									<!-- /product -->
 
-									<!-- product -->
-									<div class="product">
-										<div class="product-img">
-											<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMjA3MTNfMzAw%2FMDAxNjU3NzA3MTgwMDk3.lFMoQ3k1iG26MvTHJLOrxPeSmHj8itX32QHIHtpNtzgg.ltKCvGjXwcvaMcg9Xdc7cpaCjvzQMnnYcbaPHo33JeEg.JPEG%2Fupload_6cde8735cdea3d0c2ccce172c9e559b4.jpeg"
-												alt="">
-											<div class="product-label">
-												<span class="new">NEW</span>
-											</div>
-										</div>
-										<div class="product-body">
 
-											<h3 class="cafe-name"><a href="#">티앗(TeaAt)</a></h3>
-											<h4 class="username">분대장 <p class="user-title">집돌이</p>
-											</h4>
-											<div class="cafe-rating">
-												<a>4.1</a><i class="fa fa-star"></i>
-											</div>
-											<div class="product-btns">
-												<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
-														class="tooltipp">add to wishlist</span></button>
-												<button class="add-to-compare"><i
-														class="fa-regular fa-bookmark"></i><span class="tooltipp">add to
-														compare</span></button>
 
-											</div>
-										</div>
-										<div class="add-to-cart">
-											<button class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i>
-												자세히 보기</button>
-										</div>
-									</div>
-									<!-- /product -->
+
 
 
 									<!-- product -->
@@ -323,7 +337,10 @@ postlist = postdao.selectAllLikePostlist2(); */
 										<div class="product-img">
 											<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA2MDhfMzAw%2FMDAxNjU0NjcwNjY0Mjgx.Jk_2ATNst4vu6kiu0DElgXSAbU06a32IJC7nE8CzVWUg.JoQFb1rhGdQjyGSbbSimoaY7CBAY0erl048WzRJtDHYg.JPEG.gail6530%2F%25C0%25CC%25C0%25CC%25B3%25B2%25BD%25BA%25C6%25A9%25B5%25F0%25BF%25C0_%25284%2529.jpg"
 												alt="">
-
+<div class="product-label">
+												<span class="new">Best</span>
+											</div>
+										
 										</div>
 										<div class="product-body">
 
@@ -354,7 +371,10 @@ postlist = postdao.selectAllLikePostlist2(); */
 										<div class="product-img">
 											<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA3MzFfMTA1%2FMDAxNjU5Mjc5NDMxMDAx.OhMoYmK41DTqsFlF-JQZi3D4E-VoCsNTpGVWjibx5M4g.9zJepqrgcpv5PudgifteS453NcggCZUfz8ZOqmie3Xog.JPEG.monde337%2FIMG_7234.jpg"
 												alt="">
-
+<div class="product-label">
+												<span class="new">Best</span>
+											</div>
+										
 										</div>
 										<div class="product-body">
 
@@ -385,7 +405,10 @@ postlist = postdao.selectAllLikePostlist2(); */
 										<div class="product-img">
 											<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAxMzBfNDgg%2FMDAxNjQzNTQzODc0NTE4.RxelhBVomrVl0-OuqWDvl-C8e9n5it8uSOv6thofU5sg.9GVXeblqeiXKXNeBx0BCk1ZweP3QpvL7lyoS6G4vMW0g.JPEG.sodiumk__%2F20220130_095444.jpg"
 												alt="">
-
+<div class="product-label">
+												<span class="new">Best</span>
+											</div>
+										
 										</div>
 										<div class="product-body">
 
@@ -451,12 +474,14 @@ postlist = postdao.selectAllLikePostlist2(); */
 								<div class="products-slick" data-nav="#slick-nav-2">
 
 									<!-- product -->
+									
+									
 									<div class="product">
 										<div class="product-img">
 											<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEwMzBfMjAz%2FMDAxNjM1NTgwMDgxNjI4.zZiZn-IUE7xwqBjPS6N6hbNM40sRAlnglrKipztS9usg.7xvI6qtTBzj9MRp802YAfqGe1L6WGO4ZJur6DVArxxkg.JPEG.rkdldhtm%2FIMG_5034.jpg"
 												alt="">
 												<div class="product-label">
-												<span class="new">Best</span>
+												<span class="new">New</span>
 											</div>
 										
 										</div>
@@ -487,15 +512,15 @@ postlist = postdao.selectAllLikePostlist2(); */
 									<!-- product -->
 									<div class="product">
 										<div class="product-img">
-											<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA0MjdfMjUz%2FMDAxNTU2MzI0NTk0OTk5.4bGUWoULTA3jqkVRzFMo_kA7GGV_oQkMfrLiYmHx514g.NQYzAqvEk7IjAUmvrfjaHG2jjQctMvuLCRlQ1Koz_H0g.JPEG.kimjia1685%2Foutput_1011159290.jpg"
+											<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA3MDFfMTQ0%2FMDAxNjU2NjEzMDUxMjE3.7gZlXKq0AfddA4oJE_aQ98cDX5fccBW3ZEPkQmrMHrQg.2TGvPB8Z54eQCZGveh4rqx_w6bF6WXKnRG3OjQISsVUg.JPEG.taste_chacco%2FKakaoTalk_20220701_031658190_02.jpg"
 												alt="">
 											<div class="product-label">
-												<span class="new">Best</span>
+												<span class="new">New</span>
 											</div>
 										</div>
 										<div class="product-body">
 
-											<h3 class="cafe-name"><a href="#">시니피에</a></h3>
+											<h3 class="cafe-name"><a href="#">ATTA 커피</a></h3>
 											<h4 class="username">알마 <p class="user-title">전국카페탐방</p>
 											</h4>
 											<div class="cafe-rating">
@@ -511,7 +536,8 @@ postlist = postdao.selectAllLikePostlist2(); */
 											</div>
 										</div>
 										<div class="add-to-cart">
-											<button class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i>
+											<button class="add-to-cart-btn" a onclick="location.href='P4postATTA.jsp';"
+								style="cursor: pointer"><i class="fa-solid fa-magnifying-glass"></i>
 												자세히 보기</button>
 										</div>
 									</div>
@@ -523,7 +549,7 @@ postlist = postdao.selectAllLikePostlist2(); */
 											<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMjA3MTlfMjAw%2FMDAxNjU4MjA2MDAzOTM1.13XxxDE7K8d1ERhNMI92pYU9SwWM9p6Ws1rSRmeyBdkg.x8ZwwAdX6pWrTIPebjvZyWGrEFZ7yxuXH-i8ezxPwsQg.JPEG%2Fupload_a42160426a716a77de0e4711a535a9c2.jpg"
 												alt="">
 											<div class="product-label">
-												<span class="new">Best</span>
+												<span class="new">New</span>
 											</div>
 										</div>
 										<div class="product-body">
@@ -556,7 +582,7 @@ postlist = postdao.selectAllLikePostlist2(); */
 											<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAyMDFfMjI1%2FMDAxNjEyMTU0NDQxODUw.wVNCP6uqqN1dXbzA9x-RBTWY6aShrsYxOYSl_tUJRfgg.4cPtm1BteRCQJsmJBdjfQaaXIeK33cTn9acNzETPweEg.JPEG.kbs2080%2FIMG_1622.jpg"
 												alt="">
 											<div class="product-label">
-												<span class="new">Best</span>
+												<span class="new">New</span>
 											</div>
 										</div>
 										<div class="product-body">
@@ -589,7 +615,7 @@ postlist = postdao.selectAllLikePostlist2(); */
 											<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2F20140729_286%2Fby2man_1406614985332T4fSP_JPEG%2FDSCF8099%2528b%2529.jpg"
 												alt="">
 											<div class="product-label">
-												<span class="new">Best</span>
+												<span class="new">New</span>
 											</div>
 										</div>
 										<div class="product-body">
@@ -655,37 +681,6 @@ postlist = postdao.selectAllLikePostlist2(); */
 							<div id="tab2" class="tab-pane fade in active">
 								<div class="products-slick" data-nav="#slick-nav-3">
 
-									<!-- product -->
-									<div class="product">
-										<div class="product-img">
-											<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA0MTNfMjY1%2FMDAxNjE4Mjg1NTI5MTY3.PbN8McVOQdSc33JaTEinlFChtoSOQSgTk71bxPZjzzgg.RsHO0JO_5-tUD2UJU3GNwPsJNrvLV6H0HwvvBAUMqD4g.JPEG.yujinkim0829%2FIMG_0223.jpg"
-												alt="">
-
-										</div>
-										<div class="product-body">
-
-											<h4 class="username">EARTH COFFE 
-											</h4>
-											<div class="cafe-rating">
-												<a>4.67</a><i class="fa fa-star"></i>
-											</div>
-											<div class="product-btns">
-												<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
-														class="tooltipp">add to wishlist</span></button>
-												<button class="add-to-compare"><i
-														class="fa-regular fa-bookmark"></i><span class="tooltipp">add to
-														compare</span></button>
-
-
-											</div>
-										</div>
-										<div class="add-to-cart">
-											<button a onclick="location.href='P4postEarth.jsp';"
-								style="cursor: pointer" class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i>
-												자세히 보기</button>
-										</div>
-									</div>
-									<!-- /product -->
 
 									<!-- product -->
 									<div class="product">
@@ -716,6 +711,41 @@ postlist = postdao.selectAllLikePostlist2(); */
 										</div>
 									</div>
 									<!-- /product -->
+									
+									
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20201220_249%2F1608451305801PaSL1_JPEG%2FBQ1ryYCW9jysiHJY-PqGwa_m.jpeg.jpg"
+												alt="">
+
+										</div>
+										<div class="product-body">
+
+											<h4 class="username">EARTH COFFE 
+											</h4>
+											<div class="cafe-rating">
+												<a>4.67</a><i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+														class="tooltipp">add to wishlist</span></button>
+												<button class="add-to-compare"><i
+														class="fa-regular fa-bookmark"></i><span class="tooltipp">add to
+														compare</span></button>
+
+
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button a onclick="location.href='P4postEarth.jsp';"
+								style="cursor: pointer" class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i>
+												자세히 보기</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+
 
 									<!-- product -->
 									<div class="product">
