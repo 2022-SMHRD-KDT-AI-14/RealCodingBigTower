@@ -809,7 +809,7 @@ postlist = postdao.selectAllLikePostlist2(); */
 									<!-- product -->
 									<div class="product">
 										<div class="product-img">
-											<img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20201220_249%2F1608451305801PaSL1_JPEG%2FBQ1ryYCW9jysiHJY-PqGwa_m.jpeg.jpg"
+											<img src="https://static.wixstatic.com/media/c98b58_a1a397028b8241988e023803988695d1~mv2.jpeg/v1/fill/w_940,h_510,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/KakaoTalk_Photo_2021-01-20-14-24-10.jpeg"
 												alt="">
 
 										</div>

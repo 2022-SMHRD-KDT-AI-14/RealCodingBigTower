@@ -265,15 +265,11 @@
 								</div>
 							</div>
 							<div>
-								<h3 class="username">알마<p class="user-title">전국카페탐방</p></h3>
+								<h3 class="username"><p class="user-title"></p></h3>
 							</div>
 
 							<div>
-								<p class="post-content-text">
-								커피도 생각보다 맛있었고
-								크로플이 정말 맛있었어요!
-								그리고 냅킨대신 매장내 비치된 손수건을 하용하고 있어요!
-								</p>
+								
 							</div>	
 
 							<ul class="product-btns">
