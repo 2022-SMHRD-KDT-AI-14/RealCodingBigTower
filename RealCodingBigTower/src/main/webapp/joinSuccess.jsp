@@ -35,7 +35,7 @@ Member joinMember =  (Member)request.getAttribute("joinMember");
 
 		<form id="login" action="" class="input-group">
 			<div class="input-group-nanum" align="center">
-				가입이 완료되었습니다.<br><%=joinMember.getNick() %>님 환영합니다!
+				가입이 완료되었습니다.<br><%=joinMember.get_Nick() %>님 환영합니다!
 			</div>
 			
 						<!-- 회원가입 폼 2-->

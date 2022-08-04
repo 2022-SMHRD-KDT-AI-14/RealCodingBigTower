@@ -40,15 +40,18 @@
     
     <div id="header">
 		<!-- container -->
+		
 		<div class="container">
 			<!-- row -->
+			
 			<div class="row">
 				<!-- LOGO -->
 				<div class="col-md-3">
 					<div class="header-logo">
-						<a onclick="location.href='P1main.jsp';" style="cursor: pointer" style="width: 40px" alt="" class="logo"> <img src="images/LogoL_nokki2 (1).png">
-						</a>
 					</div>
+				</div>
+				<div>
+					
 				</div>
 
         <!-- 검색창 -->
@@ -60,6 +63,8 @@
                 </a>
             </div>
         </form>
+	<a onclick="location.href='P1main.jsp';" style="cursor: pointer" style="width: 40px" alt="" class=""> <img src="images/LogoL_nokki2 (1).png">
+						</a>
 
         <!-- 상단바 버튼 -->
         <button id="category">카테고리</button>
