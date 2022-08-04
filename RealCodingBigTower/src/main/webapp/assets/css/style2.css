@@ -460,6 +460,7 @@ textarea.input {
 
 .header-links li a {
   color: #FFF;
+  margin-right: 15px
 }
 
 .header-links li a:hover {

@@ -44,14 +44,19 @@
 			<!-- TOP HEADER -->
 			<div id="top-header">
 				<div class="container">
-					<ul class="header-links pull-left">
-						<li><a href="#"><i class="fa fa-phone"></i> 062-655-1616</a></li>
-						<li><a href="#"><i class="fa fa-envelope-o"></i> cfy0502@email.com</a></li>
-						<li><a href="#"><i class="fa fa-map-marker"></i> 동구 예술길 31-15</a></li>
-					</ul>
-					<ul class="header-links pull-right">						
-						<li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
-					</ul>
+				
+				<ul class="header-links pull-right">
+					<li><a onclick="location.href='login.jsp';" style="cursor:pointer" ><i class=""></i> logout </a &nbsp;></li &nbsp;>
+				</ul>
+				
+				<ul class="header-links pull-right">
+					<li><a onclick="location.href='P3postupload.jsp';" style="cursor:pointer"><i class=""></i> Post+ </a &nbsp;></li &nbsp;>
+				</ul>
+				
+				<ul class="header-links pull-right">
+					<li><a onclick="location.href='P3userinfo.jsp';" style="cursor:pointer"><i class="fa fa-user-o" ></i> 내 정보 </a></li>
+				</ul>
+					
 				</div>
 			</div>
 			<!-- /TOP HEADER -->

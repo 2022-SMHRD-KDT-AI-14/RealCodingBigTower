@@ -72,18 +72,19 @@ postlist = postdao.selectAllLikePostlist2(); */
 					<li><a href="#"><i class="fa fa-map-marker"></i> 동구 예술길 31-15</a></li>
 				</ul> -->
 				
+				
 				<ul class="header-links pull-right">
-					<li &nbsp;><a onclick="location.href='P3userinfo.jsp';" style="cursor:pointer"> 내 정보 <i class="fa fa-user-o" ></i></a></li &nbsp; >
+					<li><a onclick="location.href='login.jsp';" style="cursor:pointer" ><i class=""></i> logout </a &nbsp;></li &nbsp;>
 				</ul>
 				
 				<ul class="header-links pull-right">
-					<li &nbsp;><a onclick="location.href='login.jsp';" style="cursor:pointer"><i class=""  &nbsp;></i> logout </a></li &nbsp;>
+					<li><a onclick="location.href='P3postupload.jsp';" style="cursor:pointer"><i class=""></i> Post+ </a &nbsp;></li &nbsp;>
+				</ul>
 				
 				<ul class="header-links pull-right">
-					<li &nbsp;><a onclick="location.href='P3postupload.jsp';" style="cursor:pointer"><i class=""></i> Post+  </a></li &nbsp;>
+					<li><a onclick="location.href='P3userinfo.jsp';" style="cursor:pointer"><i class="fa fa-user-o" ></i> 내 정보 </a></li>
 				</ul>
 				
-				</ul>
 				
 			</div>
 		</div>

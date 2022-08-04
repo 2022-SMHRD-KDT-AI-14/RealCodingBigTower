@@ -44,12 +44,19 @@
 			<!-- TOP HEADER -->
 			<div id="top-header">
 				<div class="container">
-					<ul class="header-links pull-left">
-					</ul>
-					<ul class="header-links pull-right">						
-						<li><a onclick="location.href='P3userinfo.jsp';"
-					style="cursor: pointer"><i class="fa fa-user-o"></i>내 정보</a></li>
-					</ul>
+				
+				<ul class="header-links pull-right">
+					<li><a onclick="location.href='login.jsp';" style="cursor:pointer" ><i class=""></i> logout </a &nbsp;></li &nbsp;>
+				</ul>
+				
+				<ul class="header-links pull-right">
+					<li><a onclick="location.href='P3postupload.jsp';" style="cursor:pointer"><i class=""></i> Post+ </a &nbsp;></li &nbsp;>
+				</ul>
+				
+				<ul class="header-links pull-right">
+					<li><a onclick="location.href='P3userinfo.jsp';" style="cursor:pointer"><i class="fa fa-user-o" ></i> 내 정보 </a></li>
+				</ul>
+					
 				</div>
 			</div>
 			<!-- /TOP HEADER -->
