@@ -277,7 +277,8 @@ postlist = postdao.selectAllLikePostlist2(); */
 											</div>
 										</div>
 										<div class="add-to-cart">
-											<button class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i>
+											<button a onclick="location.href='P4postGathering.jsp';"
+								style="cursor: pointer" class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i>
 												자세히 보기</button>
 										</div>
 									</div>
@@ -663,10 +664,10 @@ postlist = postdao.selectAllLikePostlist2(); */
 										</div>
 										<div class="product-body">
 
-											<h4 class="username">Tone 
+											<h4 class="username">EARTH COFFE 
 											</h4>
 											<div class="cafe-rating">
-												<a>4.48</a><i class="fa fa-star"></i>
+												<a>4.67</a><i class="fa fa-star"></i>
 											</div>
 											<div class="product-btns">
 												<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
@@ -675,10 +676,12 @@ postlist = postdao.selectAllLikePostlist2(); */
 														class="fa-regular fa-bookmark"></i><span class="tooltipp">add to
 														compare</span></button>
 
+
 											</div>
 										</div>
 										<div class="add-to-cart">
-											<button class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i>
+											<button a onclick="location.href='P4postEarth.jsp';"
+								style="cursor: pointer" class="add-to-cart-btn"><i class="fa-solid fa-magnifying-glass"></i>
 												자세히 보기</button>
 										</div>
 									</div>
@@ -782,10 +785,12 @@ postlist = postdao.selectAllLikePostlist2(); */
 										</div>
 										<div class="product-body">
 
-											<h4 class="username">EARTH COFFE 
+
+											
+											<h4 class="username">Tone 
 											</h4>
 											<div class="cafe-rating">
-												<a>4.67</a><i class="fa fa-star"></i>
+												<a>4.48</a><i class="fa fa-star"></i>
 											</div>
 											<div class="product-btns">
 												<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
@@ -793,6 +798,7 @@ postlist = postdao.selectAllLikePostlist2(); */
 												<button class="add-to-compare"><i
 														class="fa-regular fa-bookmark"></i><span class="tooltipp">add to
 														compare</span></button>
+
 
 											</div>
 										</div>

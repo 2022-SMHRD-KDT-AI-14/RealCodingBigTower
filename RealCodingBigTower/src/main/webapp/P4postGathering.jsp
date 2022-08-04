@@ -264,7 +264,7 @@
 								</div>
 							</div>
 							<div>
-								<h3 class="username">분대장<p class="user-title">집돌이</p></h3>
+								<h3 class="username">만득이<p class="user-title">브론즈</p></h3>
 							</div>
 
 							<div>
